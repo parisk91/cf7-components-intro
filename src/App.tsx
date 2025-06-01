@@ -1,21 +1,31 @@
 import './App.css'
-import ClassComponent from "./components/ClassComponent.tsx";
-import FunctionalComponent from "./components/FunctionalComponnt.tsx";
-import {ArrowFunctionalComponent} from "./components/ArrrowFunctionalComponent.tsx";
-import ArrowFunctionalComponentWithProps from "./components/ArrowFunctionalComponentWithProps.tsx";
-import ArrowFunctionalComponentWithPropsType from "./components/ArrowFunctionalComponentWithPropsType.tsx";
+import Layout from "./components/Layout.tsx";
+// import ClassComponentWithState from "./components/ClassComponentWithState.tsx";
+import FunctionComponentWithState from "./components/FunctionComponentWithState.tsx";
+//import FunctionalComponent from "./components/FunctionalComponnt.tsx";
+// import ClassComponent from "./components/ClassComponent.tsx";
+// import FunctionalComponent from "./components/FunctionalComponnt.tsx";
+// import {ArrowFunctionalComponent} from "./components/ArrrowFunctionalComponent.tsx";
+// import ArrowFunctionalComponentWithProps from "./components/ArrowFunctionalComponentWithProps.tsx";
+// import ArrowFunctionalComponentWithPropsType from "./components/ArrowFunctionalComponentWithPropsType.tsx";
 
 function App() {
 
   return (
     <>
-        <ClassComponent />
-        <FunctionalComponent/>
-        <ArrowFunctionalComponentWithProps title="Is an arrow componet with props"/>
-        <ArrowFunctionalComponent/>
-        <ArrowFunctionalComponentWithPropsType
-            title="Is a props with type"
-            description="this is a description"/>
+        {/*<ClassComponent />*/}
+        {/*<FunctionalComponent/>*/}
+        {/*<ArrowFunctionalComponentWithProps title="Is an arrow componet with props"/>*/}
+        {/*<ArrowFunctionalComponent/>*/}
+        {/*<ArrowFunctionalComponentWithPropsType*/}
+        {/*    title="Is a props with type"*/}
+        {/*    description="this is a description"/>*/}
+        <Layout>
+            {/*<h1 font-bold>This is a title</h1>*/}
+            {/*<FunctionalComponent/>*/}
+            {/*<ClassComponentWithState />*/}
+            <FunctionComponentWithState/>
+        </Layout>
     </>
   )
 }
