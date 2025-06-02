@@ -1,7 +1,11 @@
 import './App.css'
 import Layout from "./components/Layout.tsx";
 // import ClassComponentWithState from "./components/ClassComponentWithState.tsx";
-import FunctionComponentWithState from "./components/FunctionComponentWithState.tsx";
+// import FunctionComponentWithState from "./components/FunctionComponentWithState.tsx";
+// import Counter from "./components/Counter.tsx";
+// import CounterWithMoreStates from "./components/CounterWithMoreStates.tsx";
+import CounterAdvanced from "./components/CounterAdvanced.tsx";
+// import NameChanger from "./components/NameChanger.tsx";
 //import FunctionalComponent from "./components/FunctionalComponnt.tsx";
 // import ClassComponent from "./components/ClassComponent.tsx";
 // import FunctionalComponent from "./components/FunctionalComponnt.tsx";
@@ -24,7 +28,11 @@ function App() {
             {/*<h1 font-bold>This is a title</h1>*/}
             {/*<FunctionalComponent/>*/}
             {/*<ClassComponentWithState />*/}
-            <FunctionComponentWithState/>
+            {/*<FunctionComponentWithState/>*/}
+            {/*<Counter/>*/}
+            {/*<NameChanger/>*/}
+            {/*<CounterWithMoreStates/>*/}
+            <CounterAdvanced/>
         </Layout>
     </>
   )
