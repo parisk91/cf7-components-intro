@@ -4,7 +4,9 @@ import Layout from "./components/Layout.tsx";
 // import FunctionComponentWithState from "./components/FunctionComponentWithState.tsx";
 // import Counter from "./components/Counter.tsx";
 // import CounterWithMoreStates from "./components/CounterWithMoreStates.tsx";
-import CounterAdvanced from "./components/CounterAdvanced.tsx";
+// import CounterAdvanced from "./components/CounterAdvanced.tsx";
+// import CounterWithCustomHook from "./components/CounterWithCustomHook.tsx";
+import CounterWithReducer from "./components/CounterWithReducer.tsx";
 // import NameChanger from "./components/NameChanger.tsx";
 //import FunctionalComponent from "./components/FunctionalComponnt.tsx";
 // import ClassComponent from "./components/ClassComponent.tsx";
@@ -32,7 +34,9 @@ function App() {
             {/*<Counter/>*/}
             {/*<NameChanger/>*/}
             {/*<CounterWithMoreStates/>*/}
-            <CounterAdvanced/>
+            {/*<CounterAdvanced/>*/}
+            {/*<CounterWithCustomHook/>*/}
+            <CounterWithReducer/>
         </Layout>
     </>
   )
