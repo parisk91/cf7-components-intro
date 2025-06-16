@@ -1,12 +1,14 @@
 import './App.css'
 import Layout from "./components/Layout.tsx";
+
+import ToDo from "./components/Todo/ToDo.tsx";
 // import ClassComponentWithState from "./components/ClassComponentWithState.tsx";
 // import FunctionComponentWithState from "./components/FunctionComponentWithState.tsx";
 // import Counter from "./components/Counter.tsx";
 // import CounterWithMoreStates from "./components/CounterWithMoreStates.tsx";
 // import CounterAdvanced from "./components/CounterAdvanced.tsx";
 // import CounterWithCustomHook from "./components/CounterWithCustomHook.tsx";
-import CounterWithReducer from "./components/CounterWithReducer.tsx";
+// import CounterWithReducer from "./components/CounterWithReducer.tsx";
 // import NameChanger from "./components/NameChanger.tsx";
 //import FunctionalComponent from "./components/FunctionalComponnt.tsx";
 // import ClassComponent from "./components/ClassComponent.tsx";
@@ -36,7 +38,8 @@ function App() {
             {/*<CounterWithMoreStates/>*/}
             {/*<CounterAdvanced/>*/}
             {/*<CounterWithCustomHook/>*/}
-            <CounterWithReducer/>
+            {/*<CounterWithReducer/>*/}
+            <ToDo/>
         </Layout>
     </>
   )

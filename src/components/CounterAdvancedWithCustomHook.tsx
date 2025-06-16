@@ -1,6 +1,6 @@
 import CounterButton from "./CounterButton.tsx";
 
-import useAdvancedCounter from "../hooks/useAdvancedCounter.ts"
+// import useAdvancedCounter from "../hooks/useAdvancedCounter.ts"
 
 const CounterWithCustomHook = () => {
 
