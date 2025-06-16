@@ -1,7 +1,8 @@
 import './App.css'
 import Layout from "./components/Layout.tsx";
 
-import ToDo from "./components/Todo/ToDo.tsx";
+// import ToDo from "./components/Todo/ToDo.tsx";
+import OnlineStatus from "./components/OnlineStatus.tsx";
 // import ClassComponentWithState from "./components/ClassComponentWithState.tsx";
 // import FunctionComponentWithState from "./components/FunctionComponentWithState.tsx";
 // import Counter from "./components/Counter.tsx";
@@ -39,7 +40,8 @@ function App() {
             {/*<CounterAdvanced/>*/}
             {/*<CounterWithCustomHook/>*/}
             {/*<CounterWithReducer/>*/}
-            <ToDo/>
+            {/*<ToDo/>*/}
+            <OnlineStatus/>
         </Layout>
     </>
   )
